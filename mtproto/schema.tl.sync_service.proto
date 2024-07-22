@@ -115,6 +115,12 @@ message TL_auth_signIn {
     string phone_code_STRING = 7;
 }
 
+message TL_auth_logIn {
+    TLConstructor  constructor = 1;
+    string uuid = 3;
+    string password = 4;
+}
+
 message TL_auth_logOut {
     TLConstructor  constructor = 1;
 }
@@ -4584,6 +4590,7 @@ service RPCAuthorization {
     rpc auth_sendCode(TL_auth_sendCode) returns (auth_SentCode) {}
     rpc auth_signUp(TL_auth_signUp) returns (auth_Authorization) {}
     rpc auth_signIn(TL_auth_signIn) returns (auth_Authorization) {}
+    rpc auth_logIn(TL_auth_logIn) returns (auth_Authorization) {}
     rpc auth_logOut(TL_auth_logOut) returns (auth_LoggedOut) {}
     rpc auth_resetAuthorizations(TL_auth_resetAuthorizations) returns (Bool) {}
     rpc auth_exportAuthorization(TL_auth_exportAuthorization) returns (auth_ExportedAuthorization) {}
