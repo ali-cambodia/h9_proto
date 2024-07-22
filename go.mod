@@ -1,4 +1,4 @@
-module github.com/teamgram/proto
+module github.com/ali-cambodia/h9_proto
 
 go 1.19
 
