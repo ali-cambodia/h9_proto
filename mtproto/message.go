@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/ali-cambodia/h9_proto/mtproto/crypto"
 )
 
 const (

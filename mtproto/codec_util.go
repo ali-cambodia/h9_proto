@@ -21,7 +21,7 @@ package mtproto
 import (
 	"time"
 
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/ali-cambodia/h9_proto/mtproto/crypto"
 )
 
 //int64_t ConnectionsManager::generateMessageId() {

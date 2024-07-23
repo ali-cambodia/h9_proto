@@ -30,7 +30,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/ali-cambodia/h9_proto/mtproto"
 )
 
 /*

@@ -16,7 +16,7 @@ package mtproto;
 import "schema.tl.crc32.proto";
 import "schema.tl.handshake.proto";
 
-option go_package = "github.com/teamgram/proto/mtproto";
+option go_package = "github.com/ali-cambodia/h9_proto/mtproto";
 
 
 message TL_req_pq {

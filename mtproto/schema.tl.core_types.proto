@@ -15,7 +15,7 @@ package mtproto;
 // import "google/protobuf/wrappers.proto";
 import "schema.tl.crc32.proto";
 
-option go_package = "github.com/teamgram/proto/mtproto";
+option go_package = "github.com/ali-cambodia/h9_proto/mtproto";
 
 
 // Bool <--

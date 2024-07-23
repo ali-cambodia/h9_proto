@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/ali-cambodia/h9_proto/mtproto"
 
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/proto"

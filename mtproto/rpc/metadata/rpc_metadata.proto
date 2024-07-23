@@ -11,7 +11,7 @@ syntax = "proto3";
 // option java_outer_classname = "ZProtoRpcMetaData";
 // option optimize_for = CODE_SIZE;
 
-option go_package = "github.com/teamgram/proto/mtproto/rpc/metadata";
+option go_package = "github.com/ali-cambodia/h9_proto/mtproto/rpc/metadata";
 
 package metadata;
 
