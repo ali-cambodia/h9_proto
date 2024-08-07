@@ -1349,6 +1349,7 @@ const (
 	Predicate_auth_sendCode                                      = "auth_sendCode"
 	Predicate_auth_signUp                                        = "auth_signUp"
 	Predicate_auth_signIn                                        = "auth_signIn"
+	Predicate_auth_logIn                                         = "auth_logIn"
 	Predicate_auth_logOut                                        = "auth_logOut"
 	Predicate_auth_resetAuthorizations                           = "auth_resetAuthorizations"
 	Predicate_auth_exportAuthorization                           = "auth_exportAuthorization"
@@ -57791,6 +57792,54 @@ var clazzNameRegisters2 = map[string]map[int]int32{
 		139: -1126886015, // bcd51581
 
 	},
+	Predicate_auth_logIn: {
+		183: 1057402235, // 3f06ad7b
+		182: 1057402235, // 3f06ad7b
+		181: 1057402235, // 3f06ad7b
+		180: 1057402235, // 3f06ad7b
+		179: 1057402235, // 3f06ad7b
+		178: 1057402235, // 3f06ad7b
+		177: 1057402235, // 3f06ad7b
+		176: 1057402235, // 3f06ad7b
+		175: 1057402235, // 3f06ad7b
+		174: 1057402235, // 3f06ad7b
+		173: 1057402235, // 3f06ad7b
+		172: 1057402235, // 3f06ad7b
+		171: 1057402235, // 3f06ad7b
+		170: 1057402235, // 3f06ad7b
+		169: 1057402235, // 3f06ad7b
+		168: 1057402235, // 3f06ad7b
+		167: 1057402235, // 3f06ad7b
+		166: 1057402235, // 3f06ad7b
+		165: 1057402235, // 3f06ad7b
+		164: 1057402235, // 3f06ad7b
+		163: 1057402235, // 3f06ad7b
+		162: 1057402235, // 3f06ad7b
+		161: 1057402235, // 3f06ad7b
+		160: 1057402235, // 3f06ad7b
+		159: 1057402235, // 3f06ad7b
+		158: 1057402235, // 3f06ad7b
+		157: 1057402235, // 3f06ad7b
+		156: 1057402235, // 3f06ad7b
+		155: 1057402235, // 3f06ad7b
+		154: 1057402235, // 3f06ad7b
+		153: 1057402235, // 3f06ad7b
+		152: 1057402235, // 3f06ad7b
+		151: 1057402235, // 3f06ad7b
+		150: 1057402235, // 3f06ad7b
+		149: 1057402235, // 3f06ad7b
+		148: 1057402235, // 3f06ad7b
+		147: 1057402235, // 3f06ad7b
+		146: 1057402235, // 3f06ad7b
+		145: 1057402235, // 3f06ad7b
+		144: 1057402235, // 3f06ad7b
+		143: 1057402235, // 3f06ad7b
+		142: 1057402235, // 3f06ad7b
+		141: 1057402235, // 3f06ad7b
+		140: 1057402235, // 3f06ad7b
+		139: 1057402235, // 3f06ad7b
+
+	},
 	Predicate_auth_logOut: {
 		183: 1047706137, // 3e72ba19
 		182: 1047706137, // 3e72ba19
@@ -85211,6 +85260,7 @@ var clazzIdNameRegisters2 = map[int32]string{
 	-1502141361: Predicate_auth_sendCode,                                      // a677244f
 	-1429752041: Predicate_auth_signUp,                                        // aac7b717
 	-1923962543: Predicate_auth_signIn,                                        // 8d52a951
+	1057402235:  Predicate_auth_logIn,                                         // 3f06ad7b
 	1047706137:  Predicate_auth_logOut,                                        // 3e72ba19
 	-1616179942: Predicate_auth_resetAuthorizations,                           // 9fab0d1a
 	-440401971:  Predicate_auth_exportAuthorization,                           // e5bfffcd
