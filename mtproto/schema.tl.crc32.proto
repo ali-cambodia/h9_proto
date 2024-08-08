@@ -1646,7 +1646,7 @@ enum TLConstructor {
     CRC32_auth_signUp_80eee427 = -2131827673; // 80eee427
     CRC32_auth_signIn_8d52a951 = -1923962543; // 8d52a951
     CRC32_auth_signIn_bcd51581 = -1126886015; // bcd51581
-    CRC32_auth_logIn = 1057402235; // 3f06ad7b
+    CRC32_auth_logIn = -1492986149; // a702d6db
     CRC32_auth_logOut = 1047706137; // 3e72ba19
     CRC32_auth_resetAuthorizations = -1616179942; // 9fab0d1a
     CRC32_auth_exportAuthorization = -440401971; // e5bfffcd

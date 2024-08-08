@@ -1661,7 +1661,7 @@ const (
 	TLConstructor_CRC32_auth_signUp_80eee427                                        TLConstructor = -2131827673 // 80eee427
 	TLConstructor_CRC32_auth_signIn_8d52a951                                        TLConstructor = -1923962543 // 8d52a951
 	TLConstructor_CRC32_auth_signIn_bcd51581                                        TLConstructor = -1126886015 // bcd51581
-	TLConstructor_CRC32_auth_logIn                                                  TLConstructor = 1057402235  // 3f06ad7b
+	TLConstructor_CRC32_auth_logIn                                                  TLConstructor = -1492986149  // a702d6db
 	TLConstructor_CRC32_auth_logOut                                                 TLConstructor = 1047706137  // 3e72ba19
 	TLConstructor_CRC32_auth_resetAuthorizations                                    TLConstructor = -1616179942 // 9fab0d1a
 	TLConstructor_CRC32_auth_exportAuthorization                                    TLConstructor = -440401971  // e5bfffcd
@@ -4082,7 +4082,7 @@ var (
 		-2131827673: "CRC32_auth_signUp_80eee427",
 		-1923962543: "CRC32_auth_signIn_8d52a951",
 		-1126886015: "CRC32_auth_signIn_bcd51581",
-		1057402235:  "CRC32_auth_logIn",
+		-1492986149:  "CRC32_auth_logIn",
 		1047706137:  "CRC32_auth_logOut",
 		-1616179942: "CRC32_auth_resetAuthorizations",
 		-440401971:  "CRC32_auth_exportAuthorization",
@@ -6500,7 +6500,7 @@ var (
 		"CRC32_auth_signUp_80eee427":                                        -2131827673,
 		"CRC32_auth_signIn_8d52a951":                                        -1923962543,
 		"CRC32_auth_signIn_bcd51581":                                        -1126886015,
-		"CRC32_auth_logIn":                                                  1057402235,
+		"CRC32_auth_logIn":                                                  -1492986149,
 		"CRC32_auth_logOut":                                                 1047706137,
 		"CRC32_auth_resetAuthorizations":                                    -1616179942,
 		"CRC32_auth_exportAuthorization":                                    -440401971,
