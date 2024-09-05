@@ -277,7 +277,7 @@ func (m *ImmutableUser) ToUnsafeUser(selfUser *ImmutableUser) *User {
 		FirstName:            MakeFlagsString(m.FirstName()),
 		LastName:             MakeFlagsString(m.LastName()),
 		Username:             MakeFlagsString(m.Username()),
-		Phone:                nil,
+		Phone:                MakeFlagsString(m.Phone()),
 		Photo:                nil,
 		Status:               MakeUserStatus(m.LastSeenAt, true),
 		BotInfoVersion:       MakeFlagsInt32(m.BotInfoVersion()),

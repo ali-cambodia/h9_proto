@@ -8139,11 +8139,6 @@ var clazzIdRegisters2 = map[int32]func() TLObject{
 			Constructor: -1126886015,
 		}
 	},
-	-1492986149: func() TLObject { // 0xa702d6db
-		return &TLAuthLogIn{
-			Constructor: -1492986149,
-		}
-	},
 	1047706137: func() TLObject { // 0x3e72ba19
 		return &TLAuthLogOut{
 			Constructor: 1047706137,
